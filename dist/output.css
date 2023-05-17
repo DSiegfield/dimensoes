@@ -1204,6 +1204,10 @@ input:checked + .toggle-bg {
   display: none !important;
 }
 
+.h-10 {
+  height: 2.5rem !important;
+}
+
 .h-20 {
   height: 5rem !important;
 }
@@ -2406,6 +2410,10 @@ input:checked + .toggle-bg {
 
   .md\:hidden {
     display: none !important;
+  }
+
+  .md\:h-20 {
+    height: 5rem !important;
   }
 
   .md\:h-60 {
