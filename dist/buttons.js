@@ -183,7 +183,7 @@ function LoadVideoReview(x) {
   videoDiv = document.querySelector("#reviewVideo");
 
   videoDiv.innerHTML = `<video id="myVideos" class="w-full max-w-full lg:max-w-2xl rounded-lg m-auto border-8 border-teal-400" controls>
-                            <source src="./videos/${video}" type="video/mp4">
+                            <source src="https://github.com/DSiegfield/dimensoes/blob/master/videos/${video}?raw=true" type="video/mp4">
                             Historia do angelico
                         </video>`;
 }
