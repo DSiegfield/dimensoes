@@ -104,7 +104,9 @@ function LoadWorkout() {
     telemovel
   )}`;
 
-  fetch("./files/bible.json")
+  fetch(
+    "https://raw.githubusercontent.com/DSiegfield/dimensoes/master/dist/files/bible.json"
+  )
     .then((response) => response.json())
     .then((data) => {
       var livro = Math.round(Math.random() * (65 - 0) + 0);
