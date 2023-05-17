@@ -104,7 +104,7 @@ function LoadWorkout() {
     telemovel
   )}`;
 
-  fetch("../files/bible.json")
+  fetch("./files/bible.json")
     .then((response) => response.json())
     .then((data) => {
       var livro = Math.round(Math.random() * (65 - 0) + 0);
