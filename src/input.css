@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "SYNCOPATE";
+    src: url("../fonts/Syncopate-Regular.ttf");
+  }
+
+@font-face {
+font-family: "SYNCOPATE-BOLD";
+src: url("../fonts/Syncopate-Bold.ttf");
+}
+
+@font-face {
+  font-family: "PHYREXIAN";
+  src: url("../fonts/Phyrexian-Regular.woff2");
+  }
+
+@font-face {
+  font-family: "ENOCHIAN";
+  src: url("../fonts/EnochianPlain-10GB.ttf");
+  }
+
+@font-face {
+  font-family: "UBUNTULIGHT";
+  src: url("../fonts/Ubuntu-Light.ttf");
+  }
+
+@font-face {
+  font-family: "UBUNTUMEDIUM";
+  src: url("../fonts/Ubuntu-Medium.ttf");
+  }
+
+@font-face {
+  font-family: "UBUNTUBOLD";
+  src: url("../fonts/Ubuntu-Bold.ttf");
+  }
+
+@font-face {
+  font-family: "ANDARION";
+  src: url("../fonts/Andarion-Regular.ttf");
+  }

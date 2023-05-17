@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="PT-PT">
+<head>
+  <title>Ginásio Dimensões</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./dist/output.css">
+  <!-- Favicon genado em https://favicon.io/favicon-generator/-->
+  <link rel="icon" type="image/x-icon" href="./images/favicon-32x32.png">
+  <link href="./fontawesome/css/fontawesome.css" rel="stylesheet">
+  <link href="./fontawesome/css/brands.css" rel="stylesheet">
+  <link href="./fontawesome/css/solid.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar template do https://flowbite.com/ -->
+  <nav class="bg-white border-gray-200 dark:bg-gray-900">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <div class="flex items-center">
+          <img src="./images/logo.png" class="h-20 mr-3 animate-pulse" alt="Logo" />
+          <span class="self-center text-2xl md:text-4xl font-ubuntubold whitespace-nowrap dark:text-white animate-iconbrilha">Dimensões Gym</span>
+      </div>
+      <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+      </button>
+      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+        <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white ">
+          <li>
+            <a href="#" id="btnMainPage" class="block py-2 pl-3 pr-4 text-teal-400 rounded font-ubuntumedium text-xl  hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-teal-400 md:p-0" aria-current="page">Home</a>
+          </li>
+          <li>
+            <a href="#" id="btnVideos" class="block py-2 pl-3 pr-4 text-gray-900 rounded font-ubuntumedium text-xl  hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-teal-400 md:p-0">Galeria</a>
+          </li>
+          <li>
+            <a href="#" id="btnWorkout" class="block py-2 pl-3 pr-4 text-gray-900 rounded font-ubuntumedium text-xl  hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-teal-400 md:p-0">Contactos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Div -->
+  <div id="divMainPage" class="justify-center md:justify-items-start">
+
+    <!-- Main do Main -->
+
+    <div class="flex pl-4 py-4 mx-auto text-2xl align-middle text-center tracking-wide bg-teal-400  justify-center h-60  overflow-hidden">
+      <h1 id="titleMain" class="font-syncopatebold text-2xl sm:text-4xl lg:text-6xl text-white m-auto"> Mais Dimensões Menos Desculpas! </h1>
+    </div>
+
+    <div class="my-12 md:mx-10 grid grid-cols-1 lg:grid-cols-2 gap-8">
+
+      <div class="flex items-center justify-center p-8 text-2xl sm:text-3xl xl:text-4xl font-ubuntubold">
+       <span> 
+        Bem-vindo(a) ao Gym Dimensões! Localizado em uma dimensão alternativa surreal, somos um ginásio único onde a realidade é distorcida e o 
+        impossível se torna possível.
+       </span>
+      </div>
+
+      <!-- Gerado pelo AI do https://studio.d-id.com/-->
+      <video id="myVideos" class="w-full h-auto max-w-full lg:max-w-3xl rounded-lg border-8 border-x-emerald-500 border-y-teal-400 shadow-2xl shadow-black first-letter" controls>
+        <source src="./videos/welcome.mp4" type="video/mp4">
+        Historia do senhor Buff
+      </video>
+
+    </div>
+
+    <div class="flex pl-4 py-4 mx-auto text-2xl align-middle text-center tracking-wide bg-emerald-400  justify-center h-36 md:h-60 animate-azulverde">
+      <h1 class="font-syncopatebold md:text-4xl text-white m-auto">Porquê o Dimensões?</h1>
+    </div>
+
+    <!-- Porque o Dimensões?-->
+    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10 my-5">
+
+      <div class="grid grid-cols-1 gap-3 md:hover:gap-0 bg-white rounded-full text-center items-center md:hover:scale-110 duration-300">
+        <img src="./images/equipment1.png" class="border-8 border-emerald-400  rounded-full mx-auto h-56 mt-2">
+        <span class="text-center font-syncopatebold py-5 text-2xl animate-iconbrilhagreen">Inovação</span>
+        <span class="text-center text-xl font-ubuntumedium">Temos os melhores equipamentos!</span>
+      </div>
+
+      <div class="grid grid-cols-1 gap-3 md:hover:gap-0 bg-white rounded-full text-center items-center md:hover:scale-110 duration-300">
+        <img src="./images/alien.png" class="border-8 border-teal-400 rounded-full mx-auto h-56 mt-2">
+        <span class="text-center font-syncopatebold py-5 text-2xl animate-iconbrilha">Inclusivo</span>
+        <span class="text-center text-xl font-ubuntumedium">Tudo e Todos!</span>
+      </div>
+
+      <div class="grid grid-cols-1 gap-3 md:hover:gap-0 bg-white rounded-full text-center items-center md:hover:scale-110 duration-300">
+        <img src="./images/clock.png" class="border-8 border-teal-400 rounded-full mx-auto h-56 mt-2">
+        <span class="text-center font-syncopatebold py-5 text-2xl animate-iconbrilha">Horário Incrivel!</span>
+        <span class="text-center text-xl font-ubuntumedium">O tempo aqui não existe!</span>
+      </div>
+
+      <div class="grid grid-cols-1 gap-3 md:hover:gap-0 bg-white rounded-full text-center items-center md:hover:scale-110 duration-300">
+        <img src="./images/espacoliminar.png" class="border-8 border-emerald-400   rounded-full mx-auto h-56 mt-2">
+        <span class="text-center font-syncopatebold py-5 text-2xl animate-iconbrilhagreen">Espaços Incriveís</span>
+        <span class="text-center text-xl font-ubuntumedium">Temos os melhores espaços liminares!</span>
+      </div>
+
+      <!-- Imagens geradas pelo AI do https://www.canva.com/ -->
+    </div>
+
+    <div class="flex pl-4 py-4 mx-auto text-2xl align-middle text-center tracking-wide bg-emerald-400  justify-center h-36 md:h-60 animate-azulverde ">
+      <h1 class="font-syncopatebold md:text-4xl text-white m-auto">Comparação?</h1>
+    </div>
+
+    <!-- Tabela -->
+    <table class="w-screen md:max-w-4xl table-auto text-center mx-auto my-10 text-white font-syncopatebold shadow-2xl shadow-black hidden md:table">
+      <thead class="bg-teal-500">
+        <tr>
+          <th scope="col" class="font-bold px-6 py-3"></th>
+          <th scope="col" class="font-bold px-6 py-3">Gyms Ordinários</th>
+          <th scope="col" class="font-bold px-6 py-3">Dimensões</th>
+        </tr>
+      </thead>
+      <tbody class="bg-gradient-to-r from-teal-400 to-emerald-400 text-xl font-ubuntumedium">
+          <tr class="hover:bg-emerald-400">
+            <td class="px-6 py-6">Horário</td>
+            <td class="px-6 py-6">Max. 24h</td>
+            <td class="px-6 py-6">Eterno</td>
+          </tr>
+        </div>
+        
+        <tr class="hover:bg-emerald-400">
+          <td class="px-6 py-6">Dimensões</td>
+          <td class="px-6 py-6">Terceira</td>
+          <td class="px-6 py-6">Todas</td>
+        </tr>
+
+        <tr class="hover:bg-emerald-400">
+          <td class="px-6 py-6">Inclusividade</td>
+          <td class="px-6 py-6">Homo Sapiens</td>
+          <td class="px-6 py-6">Seres Conscientes</td>
+        </tr>
+
+        <tr class="hover:bg-emerald-400">
+          <td class="px-6 py-6 ">Timeline</td>
+          <td class="px-6 py-6">"Presente"</td>
+          <td class="px-6 py-6">Todas</td>
+        </tr>
+
+        <tr class="hover:bg-emerald-400">
+          <td class="px-6 py-6 ">Versus</td>
+          <td class="px-6 py-6">Uni</td>
+          <td class="px-6 py-6">Multi</td>
+        </tr>
+
+        <tr class="hover:bg-emerald-400">
+          <td class="px-6 py-6">Música Low IQ</td>
+          <td class="px-6 py-6">Sim</td>
+          <td class="px-6 py-6">Não</td>
+        </tr>
+
+      </tbody>
+    </table>
+
+    <div id="infoDiv" class="flex flex-col m-5 text-center  justify-center font-syncopatebold lg:text-2xl md:hidden rounded-3xl mx-auto max-w-sm">
+      <div id="dimensoesInfoTitle" class="flex items-center justify-center h-32 align-middle  bg-teal-400 rounded-t-3xl text-2xl text-white" > Dimensões</div>
+      <div id="dimensoesInfoDescription" class="bg-teal-300 text-black text-xl font-ubuntubold">
+        <div class="flex items-center justify-center h-20 align-middle border ">Aberto Eternamente</div>
+        <div class="flex items-center justify-center h-20 align-middle border">Temos todas as dimensões</div>
+        <div class="flex items-center justify-center h-20 align-middle border">Para Seres consicentes</div>
+        <div class="flex items-center justify-center h-20 align-middle border">Qualquer Timeline</div>
+        <div class="flex items-center justify-center h-20 align-middle border ">Multiversos</div>
+        <div class="flex items-center justify-center h-20 align-middle border">Música podre banida</div>
+      </div>
+      <div class="flex items-center justify-center h-32 align-middle  font-syncopatebold bg-emerald-400 animate-azulverdefast text-2xl"> VS </div>
+      <div id="ordinarioInfoTitle" class="flex items-center justify-center h-32 align-middle  font-syncopatebold bg-emerald-400 rounded-b-3xl text-2xl text-white"> Gym Ordinário</div>
+      <div id="ordinarioInfoDescription" class="bg-emerald-300 rounded-b-3xl text-black text-xl font-ubuntubold">
+        <div class="flex items-center justify-center h-20 align-middle border">Máximo 24h</div>
+        <div class="flex items-center justify-center h-20 align-middle border">Só 3ª Dimensão</div>
+        <div class="flex items-center justify-center h-20 align-middle border">Exclusivo Homo Sapiens</div>
+        <div class="flex items-center justify-center h-20 align-middle border">Uma timeline no Presente</div>
+        <div class="flex items-center justify-center h-20 align-middle border">Um universo</div>
+        <div class="flex items-center justify-center h-20 align-middle ">Música podre é popular</div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+
+
+  <!-- Videos Div -->
+
+  <div id="divVideos" class="justify-center md:justify-items-start">
+
+    <div class="flex text-center align-middle h-60 bg-teal-400">
+      <span id="titleVideos" class="mx-auto m-auto font-syncopatebold text-4xl sm:text-6xl text-white">Venha Conhecer-nos</span>
+    </div>
+
+    <div id="custom-controls-gallery" class="relative w-full z-0" data-carousel="slide">
+      <!-- Carousel do Flowbit -->
+      <div class="mx-auto grid grid-cols-1 md:grid-cols-2 md:gap-6 ">
+        <div class="relative h-56 overflow-hidden lg:h-96 xl:h-100 -z-0">
+
+          <!-- Todas as imageis feitas com o AI do canva https://www.canva.com/-->
+            
+            <div class="hidden duration-700 ease-in-out " data-carousel-item>
+                <img src="./images/carr1.png" class="absolute object-cover block max-w-full w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+            </div>
+            
+            <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                <img src="./images/carr2.png" class="absolute block max-w-full w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+            </div>
+            
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="./images/carr3.png" class="absolute block max-w-full w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+            </div>
+            
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="./images/carr4.png" class="absolute block max-w-full w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+            </div>
+            
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="./images/carr5.png" class="absolute block max-w-full w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+            </div>
+
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img src="./images/carr6.png" class="absolute block max-w-full w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+            </div>
+
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img src="./images/carr7.png" class="absolute block max-w-full w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+            </div>
+
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img src="./images/carr8.png" class="absolute block max-w-full w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+            </div>
+
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img src="./images/carr9.png" class="absolute block max-w-full w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+            </div>
+
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img src="./images/carr10.png" class="absolute block max-w-full w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+            </div>
+
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img src="./images/carr11.png" class="absolute block max-w-full w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+            </div>
+
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img src="./images/carr12.png" class="absolute block max-w-full w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+            </div>
+
+        </div>
+        
+        <div class="hidden md:flex text-center align-middle sm:bg-logogif sm:bg-no-repeat mx-auto sm:bg-center">
+          <span class="mx-auto m-auto font-syncopate text-4xl sm:text-6xl sm:text-teal-400">Grandes Sócios</span>
+        </div>
+    
+    </div>
+
+    
+    <!-- Reviews-->
+    <div class="mx-auto grid grid-cols-1 lg:grid-cols-2 lg:gap-6">
+
+      <!--Resultados-->
+      <div class="flex bg-fixed bg-contain lg:bg-local lg:bg-cover bg-no-repeat text-center align-middle h-60 bg-opacity-100 bg-godofredo lg:bg-none lg:bg-teal-400">
+        <span class="mx-auto m-auto font-syncopatebold text-4xl sm:text-5xl text-white">Resultados</span>
+      </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 text-center items-center border-8 border-teal-400 gap-3">
+          <div class="grid grid-cols-2 text-left align-middle gap-2">
+            <div class="grid grid-cols-1  align-middle justify-center m-2">
+              <!-- Imagem AI Generated https://studio.d-id.com/-->
+              <span class="mt-2 text-center font-syncopate text-xs">Godofredo Cachaça</span>
+              <img src="./images/godofredo.png" class=" rounded-full mx-auto h-32 w-32 my-5">
+            </div>
+            <ul class="mx-auto m-auto border-black text-center font-syncopate text-xs">
+                <li>Crossfit loooool</li>
+                <li>Amador</li>
+                <li>Terceira Dimensão</li>
+              </ul>
+            </div>
+            <div class="grid grid-cols-1 gap-4 mx-2 justify-center my-3">
+              <span class="text-center font-syncopate">Graças ao Dimensões consegui atinguir (parcialmente) os meus objetivos.</span>
+              <button id="btnVideoReviewOutro" class="bg-teal-400 hover:bg-teal-600 text-white font-bold py-2 px-4 rounded w-20 mx-auto">Video</button>
+            </div>
+        </div>
+        
+        <!--Comunidade Unida-->
+        <div class="flex bg-fixed bg-contain lg:bg-local lg:bg-cover bg-no-repeat text-center align-middle h-60 bg-cosmicqueen backdrop-blur-sm lg:bg-none lg:bg-white">
+          <span class="mx-auto m-auto font-syncopatebold text-4xl sm:text-5xl text-white lg:text-teal-400 ">Comunidade Unida</span>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 text-center items-center border-8 border-teal-400 gap-3">
+          <div class="grid grid-cols-2 text-left align-middle gap-2">
+            <div class="grid grid-cols-1  align-middle justify-center m-2">
+              <!-- Font por Ezeray Ciel https://www.dafont.com/andarion.font -->
+              <!-- Imagem AI Generated https://gencraft.com/ -->
+              <span class="mt-2 text-center font-andarion hover:font-syncopate text-xs">lilith alfa</span>
+              <img src="./images/cosmicqueen.png" class=" rounded-full mx-auto h-32 w-32 my-5">
+            </div>
+            <ul class="mx-auto m-auto border-black font-andarion text-center hover:font-syncopate text-xs">
+              <li>personal trainer</li>
+              <li>senior</li>
+              <li>quarta dimensao</li>
+            </ul>
+          </div>
+          <div class="grid grid-cols-1 gap-4 mx-2 justify-center my-3">
+            <span class="text-center font-andarion hover:font-syncopate">o dimensoes e o ginasio mais unido que ja frequentei</span>
+            <button id="btnVideoReviewQueen" class="bg-teal-400 hover:bg-teal-600 text-white font-bold py-2 px-4 rounded w-20 mx-auto font-andarion">click</button>
+          </div>
+      </div>
+
+      <!--Inacreditamoroso!-->
+      <div class="flex bg-fixed bg-contain lg:bg-local lg:bg-cover bg-no-repeat text-center align-middle h-60 bg-opacity-100 bg-gigachad lg:bg-none lg:bg-teal-400">
+        <span class="mx-auto m-auto font-syncopatebold text-4xl sm:text-5xl text-white">Satisfação</span>
+      </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 text-center items-center border-8 border-teal-400 gap-3">
+          <div class="grid grid-cols-2 text-left align-middle gap-2 m-2">
+            <div class="grid grid-cols-1  align-middle justify-center">
+              <!-- Imagem AI Generated https://gencraft.com/ -->
+              <span class="mt-2 text-center font-syncopate text-xs">Luciano Risotástico</span>
+              <img src="./images/gigachad.png" class=" rounded-full mx-auto h-32 w-32 my-5">
+            </div>
+            <ul class="mx-auto m-auto border-black text-center font-syncopate text-xs">
+                <li>Bodybuilder</li>
+                <li>Men's Physique</li>
+                <li>Terceira Dimensão</li>
+              </ul>
+            </div>
+            <div class="grid grid-cols-1 gap-4 mx-2 justify-center my-3">
+              <span class="text-center font-syncopate">Eu gosto</span>
+              <button id="btnVideoReviewGiga" class="bg-teal-400 hover:bg-teal-600 text-white font-bold py-2 px-4 rounded w-20 mx-auto">Video</button>
+            </div>
+        </div>
+      
+
+      <!-- Memorias Epicas -->
+      <div class="flex bg-fixed bg-contain lg:bg-local lg:bg-cover bg-no-repeat text-center align-middle h-60 bg-angelico backdrop-blur-sm lg:bg-none lg:bg-white">
+        <span class="mx-auto m-auto font-syncopatebold text-4xl sm:text-5xl text-white lg:text-teal-400 ">Memórias Epicas</span>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 text-center items-center border-8 border-teal-400 gap-3">
+        <div class="grid grid-cols-2 text-left align-middle gap-2 m-2">
+          <div class="grid grid-cols-1  align-middle justify-center">
+            <!-- Font por Digital Type Foundry https://www.fontspace.com/enochian-font-f6183 -->
+            <!-- Imagem AI Generated https://studio.d-id.com/-->
+            <span class="mt-2 text-center font-enochian hover:font-syncopate text-xs">Fábio Manuel</span>
+            <img src="./images/angelico.png" class=" rounded-full mx-auto h-32 w-32 my-5">
+          </div>
+          <ul class="mx-auto m-auto border-black text-center font-enochian hover:font-syncopate text-xs">
+            <li>Wrestler</li>
+            <li>Profissional</li>
+            <li>Quinta Dimensão</li>
+          </ul>
+        </div>
+        <div class="grid grid-cols-1 gap-4 mx-2 justify-center my-3">
+          <span class="text-center font-enochian hover:font-syncopate">tenho multiplas historias epicas para contar aos amigos gracas ao dimensoes</span>
+          <button id="btnVideoReviewAngelico" class="bg-teal-400 hover:bg-teal-600 text-white font-bold py-2 px-4 rounded w-20 mx-auto font-enochian">click</button>
+        </div>
+    </div>
+
+      
+    </div>
+    <!-- Gustave Doré, Jacob Wrestling with the Angel (1855), Dominio Publico, Retirado de https://en.wikipedia.org/wiki/Jacob_wrestling_with_the_angel -->
+    <div class="flex bg-fixed h-72 text-center align-middle bg-contain lg:bg-cover bg-no-repeat bg-fanuel">
+      <span class="mx-auto m-auto font-syncopatebold text-6xl text-white">Veja por si!</span>
+    </div>
+
+    <div class="flex mx-auto text-2xl align-middle text-center tracking-wide bg-teal-400" >
+      <video id="myVideos" class="md:mt-20 lg:mt-40 w-full m-auto max-w-full rounded-lg border-8 border-x-emerald-500 border-y-teal-400 shadow-2xl shadow-black first-letter md:max-w-3xl" controls>
+        <source src="./videos/gym.mp4" type="video/mp4">
+        Nosso gym
+      </video>
+    </div>
+
+      
+      <!-- Mostrar videos -->
+      <div id="videoModal" class="fixed inset-0 z-10 items-center justify-center bg-black bg-opacity-50">
+        <div>
+          <button id="btnCloseReviewVideo" class="my-10 flex items-center justify-center mx-auto"><i class="fa-solid fa-bounce text-4xl text-white hover:text-cyan-400">Fechar</i></button>
+          <div id="reviewVideo" class="container m-auto sm:max-w-xl">
+        </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="flex bg-fixed h-72 text-center align-middle bg-contain bg-teal-400">
+      <span class="mx-auto m-auto font-syncopatebold text-4xl md:text-6xl text-white">Começe já!&#128170;</span>
+    </div>
+    
+  </div>
+
+  
+
+
+  <!-- Contact Div -->
+  <div id="divWorkout" class=" mx-auto bg-white justify-center md:justify-items-start overflow-auto relative">
+
+    <div class="flex text-center align-middle h-60 bg-teal-400">
+      <span id="titleWorkout" class="mx-auto m-auto font-syncopatebold text-4xl sm:text-6xl text-white">Informações</span>
+    </div>
+    
+    <div class="mx-auto grid grid-cols-1 lg:grid-cols-2 lg:gap-6 items-center justify-center">
+
+      <div class="w-full py-5 text-lg md:text-2xl text-black bg-white text-left "> 
+        <div class="my-4 mx-4">
+          <div class="animate-iconbrilha"><i class="fa-solid fa-phone"></i> <span class="font-syncopatebold">Telefone</span></div>
+          <div id="infoTelefone" class="ml-8"></div>
+        </div>
+        <div class="my-4 mx-4">
+          <!-- Json da biblia retirado de https://github.com/godlytalias/Bible-Database -->
+          <div class="animate-iconbrilha"><i class="fa-solid fa-envelope"></i> <span class="font-syncopatebold">Email</span></div>
+          <div id="infoEmail" class="ml-8"></div>
+        </div>
+        <div class="my-4 mx-4">
+          <div class="animate-iconbrilha"><i class="fa-regular fa-location-dot"></i> <span class="font-syncopatebold">Localidade</span></div>
+          <div id="infoLocalidade" class="flex flex-col flex-1 items-start text-left ml-8"></div>
+        </div>
+      </div>
+
+      <div class="w-full h-full object-fill">
+        <video class="hidden relative lg:flex w-full h-full object-fill" autoplay muted loop>
+           <source src="./videos/vidbg.mp4" type="video/mp4">
+        </video>
+     </div>
+
+    </div>
+
+    <div id="map" class="relative flex bg-fixed bg-cover h-96 text-center align-middle animate-descegar"></div>
+
+  </div>
+
+  
+  <!-- Scripts -->
+  <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
+  <script src="./dist/buttons.js"></script>
+</body>
+</html>
